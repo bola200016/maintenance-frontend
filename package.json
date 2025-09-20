@@ -2,7 +2,7 @@
   "name": "maintenance-frontend",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://bola200016.github.io/maintenance-frontend",
+  "homepage": ".",
   "dependencies": {
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
