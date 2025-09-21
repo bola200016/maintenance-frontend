@@ -1,10 +1,16 @@
 import React from 'react';
 import './App.css';
-export default function App(){
+
+function App() {
   return (
-    <div className="app">
-      <h1>✅ برنامج الصيانة — واجهة React جاهزة</h1>
-      <p>ابدأ بتطوير الواجهات أو وصلها بالـ backend.</p>
+    <div className="App">
+      <h1>🔧 برنامج الصيانة</h1>
+      <p>مرحبا بك، الواجهة تعمل الآن على React 🚀</p>
+      <button onClick={() => alert("تم الضغط على الزر!")}>
+        اضغط هنا
+      </button>
     </div>
-  )
+  );
 }
+
+export default App;
